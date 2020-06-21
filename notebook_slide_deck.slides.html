@@ -13227,11 +13227,12 @@ $(document).ready(function(){
 
 </div>
 </div>
-</div></section></section><section><section>
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><blockquote><p><a href="https://en.wikipedia.org/wiki/Bay_Wheels#:~:text=Bay%20Wheels%20is%20a%20regional,Area%20Air%20Quality%20Management%20District."><strong>Bay Wheels</strong></a> is a regional public bicycle sharing system in the San Francisco Bay Area, California operated by Motivate in a partnership with the Metropolitan Transportation Commission and the Bay Area Air Quality Management District. Bay Wheels is the first regional and large-scale bicycle sharing system deployed in California and on the West Coast of the United States. It was established as Bay Area Bike Share in August 2013. As of January 2018, the Bay Wheels system had over 2,600 bicycles in 262 stations across San Francisco, East Bay and San Jose.</p>
+<h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><blockquote><p>This data set includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area.</p>
+<p><a href="https://en.wikipedia.org/wiki/Bay_Wheels#:~:text=Bay%20Wheels%20is%20a%20regional,Area%20Air%20Quality%20Management%20District."><strong>Bay Wheels</strong></a> is a regional public bicycle sharing system in the San Francisco Bay Area, California operated by Motivate in a partnership with the Metropolitan Transportation Commission and the Bay Area Air Quality Management District. Bay Wheels is the first regional and large-scale bicycle sharing system deployed in California and on the West Coast of the United States. It was established as Bay Area Bike Share in August 2013. As of January 2018, the Bay Wheels system had over 2,600 bicycles in 262 stations across San Francisco, East Bay and San Jose.</p>
 </blockquote>
 
 </div>
@@ -13240,57 +13241,7 @@ $(document).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Loading-the-cleaned_dataset-into-a-dataframe-df-and-then-I-found-some-errors-so-performing-some-codes-below-to-solve-those-errors.">Loading the cleaned_dataset into a dataframe df and then I found some errors so performing some codes below to solve those errors.<a class="anchor-link" href="#Loading-the-cleaned_dataset-into-a-dataframe-df-and-then-I-found-some-errors-so-performing-some-codes-below-to-solve-those-errors.">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input_hidden">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;duration_minute&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">describe</span><span class="p">(</span><span class="n">percentiles</span><span class="o">=</span><span class="p">[</span><span class="o">.</span><span class="mi">99</span><span class="p">])</span> <span class="c1"># Because trip duration is very low in some cases which will not give a correct figure.</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[17]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>count    897495.000000
-mean         13.435756
-std          27.594034
-min           1.000000
-50%           9.900000
-99%          65.816667
-max       13517.950000
-Name: duration_minute, dtype: float64</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Calculating-trip-duration-of-users.">Calculating trip duration of users.<a class="anchor-link" href="#Calculating-trip-duration-of-users.">&#182;</a></h2>
+<h3 id="Calculating-trip-duration-of-users.">Calculating trip duration of users.<a class="anchor-link" href="#Calculating-trip-duration-of-users.">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -14705,6 +14656,13 @@ L 934.804687 7.2
 </ul>
 </blockquote>
 
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Looking-for-hourly-usage-for-both-type-of-users">Looking for hourly usage for both type of users<a class="anchor-link" href="#Looking-for-hourly-usage-for-both-type-of-users">&#182;</a></h3>
 </div>
 </div>
 </div></section><section>

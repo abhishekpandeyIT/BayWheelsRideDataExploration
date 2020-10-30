@@ -1,5 +1,5 @@
 # BayWheelsRideDataExploration
- Submitted for the Partial Fulfilment of the Nanodegree Program
+ Submitted for the Partial Fulfilment of the Nanodegree Program.
 
 
 # Ford Go Bike **2019** Dataset Wrangling and visualisation 
